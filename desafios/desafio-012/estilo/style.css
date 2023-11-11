@@ -70,23 +70,28 @@ color: black;
 section.imagem {
 background-color: rgb(68, 68, 68);
 color: white;
+box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.658);
+background-attachment: fixed;
 }
 
 section.imagem > p {
 
-    background-color: rgba(0, 0, 0, 0.479);
+    background-color: rgba(0, 0, 0, 0.37);
     display: inline-block;
     padding: 5px;
+    text-shadow: black 2PX 2px 2px;
 }
 
 section#img01 {
 background-image: url(../imagens/background001.jpg);
 background-position: right center;
+background-size: cover;
 }
 
 
 section#img02 {
     background-image: url(../imagens/background002.jpg);
+    background-size: cover;
 }
 
 footer {
