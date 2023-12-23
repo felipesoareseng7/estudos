@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STyle>
+      BODY {font-family: Arial, Helvetica, sans-serif;}
+  TABLE {
+    width: 500PX;
+
+  }
+
+td,th {
+    border: 1px solid black;
+    padding: 10px;
+}
+thead,tfoot {
+    background-color: gray;
+}
+TD.NUM{color: rgb(4, 0, 255);
+text-align: right;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+}
+
+caption {
+    font-size: 1.5em;
+    background-color: rgb(182, 171, 171);
+}
+tbody > tr:nth-child(2n) {
+   background-color: rgb(62, 201, 97);
+}
+    </STyle>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+        THEAD
+        TR, TD, TH
+        TBODY
+        TR, TD, TH
+        TFOOT
+        TR, TD, TH
+    -->
+
+    <TABLE>
+<THEAD>
+    <TR>
+    <TH scope="col">ESTADO</TH>
+    <TH scope="col">POPULAÇÃO</TH>
+</TR>
+
+
+</THEAD>
+<TBody>
+    <tr>
+    <TD>SÃO PAULO</TD>
+    <TD>45919049</TD> </tr>
+    <tr>
+        <TD>MINAS</TD>
+        <TD>94919049</TD> </tr>
+ <tr>
+<TD>RIO DE JANEIRO</TD>
+ <TD>25919049</TD> </tr>
+<tr>
+     <TD>AMAZONAS</TD>
+<TD CLASS="NUM">25919049</TD> </tr>
+   <tr>
+  <TD>GOIÁS</TD>
+<TD>25919049</TD> </tr>
+ <tr>
+   <TD>BAHIA</TD>
+    <TD>25919049</TD> </tr>
+   <tr>
+     <TD>RIO GRANDE DO NORTE</TD>
+   <TD>25919049</TD> </tr>
+    <tr>
+ <TD>SANTA CATARINA</TD>
+<TD>25919049</TD> </tr>
+      <tr>
+ <TD>SANTA CATARINA</TD>
+   <TD>25919049</TD> </tr>
+       <tr>
+        <TD>SANTA CATARINA</TD>
+               <TD>25919049</TD> </tr>
+                                        <tr>
+    <TD>SANTA CATARINA</TD>
+          <TD>25919049</TD> </tr>
+       <tr>
+    <TD>SANTA CATARINA</TD>
+ <TD>25919049</TD> </tr>
+<tr>
+  <TD>SANTA CATARINA</TD>
+   <TD>25919049</TD> </tr>
+   <tr>
+    <TD>SANTA CATARINA</TD>
+     <TD>25919049</TD> </tr>
+     <tr>
+        <TD>SANTA CATARINA</TD>
+         <TD>25919049</TD> </tr>
+ <tr>
+  <TD>SANTA CATARINA</TD>
+ <TD>25919049</TD> </tr>
+ <tr>
+  <TD>SANTA CATARINA</TD>
+ <TD>25919049</TD> </tr>
+ <tr>
+    <TD>SANTA CATARINA</TD>
+     <TD>25919049</TD> </tr>
+     <tr>
+        <TD>SANTA CATARINA</TD>
+         <TD>25919049</TD> </tr>
+         <tr>
+            <TD>SANTA CATARINA</TD>
+             <TD>25919049</TD> </tr>
+             <tr>
+                <TD>SANTA CATARINA</TD>
+                 <TD>25919049</TD> </tr>
+                 <tr>
+                    <TD>SANTA CATARINA</TD>
+                     <TD>25919049</TD> </tr>
+                
+
+</TBody>
+<TFoot>
+<th>Total de habitantes</th>
+<th>0000</th>
+</TFoot>
+<caption>
+    População das unidades Federativas
+</caption>
+    </TABLE>
+</body>
+</html>
