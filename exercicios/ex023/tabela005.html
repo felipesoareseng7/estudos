@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+th,td {
+   
+    border: 1px solid black;
+    padding: 10px;
+}
+caption {padding: 10px;}
+th {
+   text-align: center;
+}
+
+tr.destaque {background-color: coral;}
+
+col.csexo{color: red;
+background-color: aqua;}
+
+div#tabela {
+    overflow-x: auto;
+}
+
+    </style>
+</head>
+<body>
+    <div id="tabela">
+        <table>
+        <caption>cadastro </caption>
+        
+        <colgroup>
+        <col class="cnome" >
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+        </colgroup>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+            <th scope="col">País</th>
+            <th scope="col">Religião</th>
+            <th scope="col">Cabelo</th>
+            <th scope="col">Endereço</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr class="destaque">
+            <td>Ana Julia</td>
+            <td>F</td>
+            <td>17</td>
+            <td>Estudante</td>
+        </tr>
+        
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Engenheiro</td>
+        </tr>
+        
+        
+        </caption>
+        </table>
+    </div>
+    
+</body>
+</html>
